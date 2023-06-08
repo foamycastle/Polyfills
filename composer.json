@@ -1,0 +1,18 @@
+{
+  "name": "foamycastle/polyfills",
+  "description": "polyfill functions for older php versions",
+  "minimum-stability": "dev",
+  "prefer-stable": false,
+  "authors": [
+    {
+      "name": "Aaron Sollman",
+      "email": "unclepong@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": ["src/Polyfill80.php"]
+  },
+  "require": {
+    "php": ">=5.6"
+  }
+}
